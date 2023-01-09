@@ -1,0 +1,42 @@
+.detailMovie-Container{
+    width: 100%;
+    height: 580px;
+    position: fixed;
+    top: 40%;
+    left: 0;
+    background-color: #111111;
+    color: white;
+}
+.detailMovie-Container img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 40%;
+    height: 400px;
+}
+.detailMovie-Videos{
+    position: absolute;
+    top: 15%;
+    left: 47%;
+}
+.detailMovie-Infor{
+    margin: 100px 0 100px 30px;  
+}
+.detailMovie-Title{
+    position: relative;
+    padding-bottom: 35px;
+}
+.detailMovie-Title::after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: white;
+    top:60px;
+    left: 0;
+}
+.detailMovie-Overview{
+    width: 40%;
+    padding-top: 15px;
+}
+

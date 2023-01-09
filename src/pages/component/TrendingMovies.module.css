@@ -1,0 +1,8 @@
+.TrendList-container{
+    position: relative;
+    height: 260px;
+}
+.TrendList-title{
+   margin: 20px 0 20px 20px;
+    color: white;
+}

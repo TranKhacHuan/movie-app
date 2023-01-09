@@ -1,0 +1,14 @@
+.searchList-Container{
+    color: white;
+    padding-top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchList-Container img{
+    width: 20%;
+    height: auto;
+}
+.searchList-Container img:hover{
+  transition: all 0.2s;
+  transform: scale(1.1);
+}

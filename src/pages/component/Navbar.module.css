@@ -1,0 +1,83 @@
+.navBar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+.navBar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.navBar-Logo {
+  cursor: pointer;
+  color: red;
+}
+.navBar-Search {
+  cursor: pointer;
+  font-size: 20px;
+  color: #c4afaf;
+}
+
+.scrolling {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #111111;
+  height: 90px;
+  position: fixed;
+  z-index: 10000;
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    background-color: unset;
+  }
+  100% {
+    background-color: unset;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    background-color: unset;
+  }
+  100% {
+    background-color: unset;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+@-webkit-keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+.fadein {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadein;
+  animation-name: fadein;
+}
+
